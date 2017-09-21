@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.remainsoftware.queuemonitor.feature"
+      label="Message Queue Monitor Feature"
+      version="1.0.0"
+      provider-name="REMAIN SOFTWARE">
+
+   <description url="http://www.remainsoftware.com">
+      This feature contains the example message queueue monitor from
+the &quot;Extending the RDI&quot; series that appeared in System i News.
+   </description>
+
+   <copyright url="http://www.remainsoftware.com">
+      No Copyright
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      No License
+   </license>
+
+   <url>
+      <update label="Remain Software" url="http://www.remainsoftware.com/en/rdi/updatesite"/>
+   </url>
+
+   <plugin
+         id="com.remainsoftware.queuemonitor"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+</feature>

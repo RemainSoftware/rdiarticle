@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Messages Plug-in
+Bundle-SymbolicName: com.remainsoftware.queuemonitor;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: nl.remain.messages.Activator
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.ibm.etools.iseries.toolbox,
+ org.eclipse.rse.ui;bundle-version="3.0.1",
+ org.eclipse.rse.core;bundle-version="3.0.1",
+ com.ibm.etools.iseries.subsystems.qsys;bundle-version="7.5.0",
+ com.ibm.etools.iseries.connectorservice;bundle-version="7.5.0"
+Eclipse-LazyStart: true
